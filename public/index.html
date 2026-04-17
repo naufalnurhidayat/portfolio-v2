@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Naufal Nur Hidayat</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Naufal Nur Hidayat</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <button id="lang-toggle" class="btn-lang" aria-label="Toggle Language">
+                        <i class="fas fa-globe"></i>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button id="dark-mode-toggle" class="btn-dark-mode" aria-label="Toggle Dark Mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <a href="#home" class="nav-link" data-i18n="nav_home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-i18n="nav_about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link" data-i18n="nav_projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-i18n="nav_contact">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title"><span data-i18n="hero_hello">Hello, I'm</span> <span class="highlight">Naufal Nur Hidayat</span></h1>
+                <p class="hero-subtitle" data-i18n="hero_subtitle">Web Developer</p>
+                <p class="hero-description" data-i18n="hero_desc">I create beautiful and functional web experiences</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary" data-i18n="hero_btn_work">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary" data-i18n="hero_btn_contact">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="img/profil/profil.jpeg" alt="Naufal Nur Hidayat Profil" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-i18n="about_title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-i18n="about_desc">I'm a passionate full-stack developer with expertise in modern web technologies. I love creating digital experiences that are not only visually appealing but also highly functional and user-friendly.</p>
+                    <div class="skills">
+                        <h3 data-i18n="skills_title">Skills</h3>
+                        <div class="skill-tags">
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"
+                                rel="noopener noreferrer" class="skill-tag" title="HTML"><i
+                                    class="devicon-html5-plain colored"></i></a>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"
+                                rel="noopener noreferrer" class="skill-tag" title="CSS"><i
+                                    class="devicon-css3-plain colored"></i></a>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"
+                                rel="noopener noreferrer" class="skill-tag" title="JavaScript"><i
+                                    class="devicon-javascript-plain colored"></i></a>
+                            <a href="https://www.php.net/" target="_blank" rel="noopener noreferrer" class="skill-tag"
+                                title="PHP"><i class="devicon-php-plain colored"></i></a>
+                            <a href="https://www.java.com/" target="_blank" rel="noopener noreferrer" class="skill-tag"
+                                title="Java"><i class="devicon-java-plain colored"></i></a>
+                            <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer"
+                                class="skill-tag" title="Bootstrap"><i class="devicon-bootstrap-plain colored"></i></a>
+                            <a href="https://react.dev/" target="_blank" rel="noopener noreferrer" class="skill-tag"
+                                title="ReactJS"><i class="devicon-react-original colored"></i></a>
+                            <a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer" class="skill-tag"
+                                title="NodeJS"><i class="devicon-nodejs-plain colored"></i></a>
+                            <a href="https://laravel.com/" target="_blank" rel="noopener noreferrer" class="skill-tag"
+                                title="Laravel"><i class="devicon-laravel-plain colored"></i></a>
+                            <a href="https://spring.io/projects/spring-boot" target="_blank" rel="noopener noreferrer"
+                                class="skill-tag" title="Spring Boot"><i class="devicon-spring-plain colored"></i></a>
+                            <a href="https://dotnet.microsoft.com/" target="_blank" rel="noopener noreferrer"
+                                class="skill-tag" title=".NET"><i class="devicon-dotnetcore-plain colored"></i></a>
+                            <a href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer" class="skill-tag"
+                                title="MySQL"><i class="devicon-mysql-plain colored"></i></a>
+                            <a href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer"
+                                class="skill-tag" title="PostgreSQL"><i
+                                    class="devicon-postgresql-plain colored"></i></a>
+                            <a href="https://www.microsoft.com/en-us/sql-server" target="_blank"
+                                rel="noopener noreferrer" class="skill-tag" title="SQL Server"><i
+                                    class="devicon-microsoftsqlserver-plain colored"></i></a>
+                            <a href="https://go.dev/" target="_blank" rel="noopener noreferrer" class="skill-tag"
+                                title="Golang"><i class="devicon-go-plain colored"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-i18n="projects_title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-i18n="p1_title">E-Commerce Website</h3>
+                        <p data-i18n="p1_desc">A full-stack e-commerce platform built with React and Node.js</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-i18n="p2_title">Task Management App</h3>
+                        <p data-i18n="p2_desc">A responsive task management application with drag-and-drop functionality</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>CSS3</span>
+                            <span>Local Storage</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> <span data-i18n="btn_code">Code</span>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> <span data-i18n="btn_demo">Live Demo</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-i18n="p3_title">Data Visualization Dashboard</h3>
+                        <p data-i18n="p3_desc">Interactive dashboard for data analysis and visualization</p>
+                        <div class="project-tech">
+                            <span>D3.js</span>
+                            <span>Python</span>
+                            <span>Flask</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> <span data-i18n="btn_code">Code</span>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> <span data-i18n="btn_demo">Live Demo</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-i18n="contact_title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <a href="https://github.com/naufalnurhidayat" target="_blank" rel="noopener noreferrer"
+                        class="contact-item" style="text-decoration: none;">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h3>GitHub</h3>
+                            <p>github.com/naufalnurhidayat</p>
+                        </div>
+                    </a>
+                    <a href="https://instagram.com/naufal.opal1673" target="_blank" rel="noopener noreferrer"
+                        class="contact-item" style="text-decoration: none;">
+                        <i class="fab fa-instagram"></i>
+                        <div>
+                            <h3>Instagram</h3>
+                            <p>@naufal.opal1673</p>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/naufal-nur-hidayat-0051b62a1/" target="_blank"
+                        rel="noopener noreferrer" class="contact-item" style="text-decoration: none;">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <p>Naufal Nur Hidayat</p>
+                        </div>
+                    </a>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" data-i18n-placeholder="contact_name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" data-i18n-placeholder="contact_email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" data-i18n-placeholder="contact_msg" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" data-i18n="btn_send">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; <span id="current-year">2024</span> Naufal Nur Hidayat. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://github.com/naufalnurhidayat" target="_blank" rel="noopener noreferrer"
+                        class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://instagram.com/naufal.opal1673" target="_blank" rel="noopener noreferrer"
+                        class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/naufal-nur-hidayat-0051b62a1/" target="_blank"
+                        rel="noopener noreferrer" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
